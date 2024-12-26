@@ -349,7 +349,7 @@ def put_ocr_boxes(boxes, frame, height, crop_width=0, crop_height=0, view_mode=1
     return frame, text
 
 def classify_card(text):
-    """Classifie le type de carte en fonction des mots-clés présents dans le texte extrait."""
+    """Classify card type based on extracted text (frensh)."""
     keywords = {
         "Carte d'identité": ["nom", "prénom", "identité", "identite", "nationale", "n°", "datedenaissance", "<<<<<<<<"],
         "Carte étudiant": ["étudiant", "etudiant", "université", "universite", "ine", "école", "matricule"],
